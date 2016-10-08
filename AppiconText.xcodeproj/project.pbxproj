@@ -12,6 +12,7 @@
 		8FCAB0FF1DA8FC7D00C32726 /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB0FE1DA8FC7D00C32726 /* NSImageExtension.swift */; };
 		8FCAB1011DA9017400C32726 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB1001DA9017400C32726 /* FileManagerExtension.swift */; };
 		8FCAB10B1DA98B5E00C32726 /* IconProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB10A1DA98B5E00C32726 /* IconProcessing.swift */; };
+		8FCAB10D1DA98C3A00C32726 /* IconCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB10C1DA98C3A00C32726 /* IconCaption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		8FCAB0FE1DA8FC7D00C32726 /* NSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
 		8FCAB1001DA9017400C32726 /* FileManagerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 		8FCAB10A1DA98B5E00C32726 /* IconProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconProcessing.swift; sourceTree = "<group>"; };
+		8FCAB10C1DA98C3A00C32726 /* IconCaption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCaption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				8FCAB10A1DA98B5E00C32726 /* IconProcessing.swift */,
+				8FCAB10C1DA98C3A00C32726 /* IconCaption.swift */,
 			);
 			path = IconProcessors;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCAB10D1DA98C3A00C32726 /* IconCaption.swift in Sources */,
 				8FCAB0FD1DA8F75500C32726 /* NSColorExtension.swift in Sources */,
 				8FCAB1011DA9017400C32726 /* FileManagerExtension.swift in Sources */,
 				8FCAB0F61DA8F65100C32726 /* main.swift in Sources */,

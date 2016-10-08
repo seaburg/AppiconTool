@@ -14,6 +14,7 @@
 		8FCAB1031DA9029100C32726 /* AppiconProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB1021DA9029100C32726 /* AppiconProcessor.swift */; };
 		8FCAB10B1DA98B5E00C32726 /* IconProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB10A1DA98B5E00C32726 /* IconProcessing.swift */; };
 		8FCAB10D1DA98C3A00C32726 /* IconCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB10C1DA98C3A00C32726 /* IconCaption.swift */; };
+		8FD401931DA99F2C00FD3388 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD401921DA99F2C00FD3388 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		8FCAB1021DA9029100C32726 /* AppiconProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppiconProcessor.swift; sourceTree = "<group>"; };
 		8FCAB10A1DA98B5E00C32726 /* IconProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconProcessing.swift; sourceTree = "<group>"; };
 		8FCAB10C1DA98C3A00C32726 /* IconCaption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCaption.swift; sourceTree = "<group>"; };
+		8FD401921DA99F2C00FD3388 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				8FCAB0FE1DA8FC7D00C32726 /* NSImageExtension.swift */,
 				8FCAB1001DA9017400C32726 /* FileManagerExtension.swift */,
 				8FCAB1021DA9029100C32726 /* AppiconProcessor.swift */,
+				8FD401921DA99F2C00FD3388 /* Utils.swift */,
 			);
 			path = AppiconText;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				8FCAB0FF1DA8FC7D00C32726 /* NSImageExtension.swift in Sources */,
 				8FCAB1031DA9029100C32726 /* AppiconProcessor.swift in Sources */,
 				8FCAB10B1DA98B5E00C32726 /* IconProcessing.swift in Sources */,
+				8FD401931DA99F2C00FD3388 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

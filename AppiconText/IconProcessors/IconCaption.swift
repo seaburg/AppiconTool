@@ -13,10 +13,14 @@ public let IconCaptionErrorDomain = "com.appicontool.icon-caption"
 public class IconCaption: IconProcessing {
     private let text: String
     private let font: NSFont
+    private let textColor: NSColor?
+    private let backroundColor: NSColor?
 
-    public init(text: String, font: NSFont = NSFont.systemFont(ofSize: 14)) {
+    public init(text: String, font: NSFont = NSFont.systemFont(ofSize: 14), textColor: NSColor? = nil, backroundColor: NSColor? = nil) {
         self.text = text
         self.font = font
+        self.textColor = textColor
+        self.backroundColor = backroundColor
     }
 
     public func process(_ icon: NSImage, contentScale: CGFloat) throws -> NSImage {
@@ -53,16 +57,6 @@ public class IconCaption: IconProcessing {
         let contextPointer = NSGraphicsContext.current()!.graphicsPort
         let cgContext: CGContext = unsafeBitCast(contextPointer, to: CGContext.self)
 
-        let backroundColor: NSColor
-        let textColor: NSColor
-        if let averageColor = icon.averageColor, averageColor.isBright {
-            backroundColor = NSColor(white: 0, alpha: 0.5)
-            textColor = NSColor(white: 1, alpha: 0.8)
-        } else {
-            backroundColor = NSColor(white: 1, alpha: 0.5)
-            textColor = NSColor(white: 0, alpha: 0.8)
-        }
-
         let scale = CGFloat(imageRepresentation.pixelsWide) / icon.size.width
         let rect = NSRect(x: 0, y: 0, width: icon.size.width * scale, height: icon.size.height * scale)
         var textRect = CGRect(x: 0, y: 0, width: rect.width, height: rect.height * 0.5)
@@ -71,8 +65,18 @@ public class IconCaption: IconProcessing {
         let fontHeight = fontAndHeight(forText: text, font:scaledFont, width: textRect.width, maxHeight: textRect.height)
         textRect.size.height = fontHeight.height
 
+        let computedBackroundColor: NSColor
+        let computedTextColor: NSColor
+        if let averageColor = icon.averageColor, averageColor.isBright {
+            computedBackroundColor = NSColor(white: 0, alpha: 0.5)
+            computedTextColor = NSColor(white: 1, alpha: 0.8)
+        } else {
+            computedBackroundColor = NSColor(white: 1, alpha: 0.5)
+            computedTextColor = NSColor(white: 0, alpha: 0.8)
+        }
+
         icon.draw(in: rect)
-        cgContext.setFillColor(backroundColor.cgColor)
+        cgContext.setFillColor((backroundColor ?? computedBackroundColor).cgColor)
         cgContext.beginPath()
         cgContext.addRect(textRect)
         cgContext.fillPath()
@@ -83,7 +87,7 @@ public class IconCaption: IconProcessing {
         (text as NSString).draw(in: textRect, withAttributes: [
             NSFontAttributeName: fontHeight.font,
             NSParagraphStyleAttributeName: paragraphStyle,
-            NSForegroundColorAttributeName: textColor,
+            NSForegroundColorAttributeName: textColor ?? computedTextColor,
         ])
         NSGraphicsContext.restoreGraphicsState()
 

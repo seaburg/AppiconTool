@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  AppiconText
+//  AppiconTool
 //
 //  Created by Evgeniy Yurtaev on 08/10/2016.
 //  Copyright © 2016 Evgeniy Yurtaev. All rights reserved.
@@ -103,7 +103,7 @@ func run() {
         let url = URL(fileURLWithPath: targetBuildDir).appendingPathComponent(contentFolderPath)
         buildPath = url.path
     } else {
-        print("not found buiild directory")
+        print("not found build directory")
         exit(1)
     }
 
@@ -116,7 +116,6 @@ func run() {
     let appiconsProcessor = AppiconProcessor(iconProcessor: iconCaptionProcessor)
 
     do {
-        print("\(buildPath) \(appiconName)")
         try appiconsProcessor.processIcons(withName: appiconName, directoryPath: buildPath)
     } catch let error as NSError {
         print("icons processing error: \(error)")

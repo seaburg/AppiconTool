@@ -1,6 +1,6 @@
 //
 //  NSImageExtension.swift
-//  AppiconText
+//  AppiconTool
 //
 //  Created by Evgeniy Yurtaev on 08/10/2016.
 //  Copyright © 2016 Evgeniy Yurtaev. All rights reserved.
@@ -8,7 +8,7 @@
 
 import AppKit
 
-public let ImageExtensionErrorDomain = "com.appicontext.error.image-extension"
+public let ImageExtensionErrorDomain = "com.appicontool.error.image-extension"
 
 public extension NSImage {
     public func save(to url: URL,type: NSBitmapImageFileType, compressionFactor: Float) throws {

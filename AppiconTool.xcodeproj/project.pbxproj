@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FCAB0F61DA8F65100C32726 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB0F51DA8F65100C32726 /* main.swift */; };
-		8FCAB0FD1DA8F75500C32726 /* NSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB0FC1DA8F75500C32726 /* NSColorExtension.swift */; };
-		8FCAB0FF1DA8FC7D00C32726 /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB0FE1DA8FC7D00C32726 /* NSImageExtension.swift */; };
-		8FCAB1011DA9017400C32726 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB1001DA9017400C32726 /* FileManagerExtension.swift */; };
-		8FCAB1031DA9029100C32726 /* AppiconProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB1021DA9029100C32726 /* AppiconProcessor.swift */; };
-		8FCAB10B1DA98B5E00C32726 /* IconProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB10A1DA98B5E00C32726 /* IconProcessing.swift */; };
-		8FCAB10D1DA98C3A00C32726 /* IconCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB10C1DA98C3A00C32726 /* IconCaption.swift */; };
-		8FD401931DA99F2C00FD3388 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD401921DA99F2C00FD3388 /* Utils.swift */; };
+		8FD401A01DAAA5D700FD3388 /* AppiconProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD401971DAAA5D700FD3388 /* AppiconProcessor.swift */; };
+		8FD401A11DAAA5D700FD3388 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD401981DAAA5D700FD3388 /* FileManagerExtension.swift */; };
+		8FD401A21DAAA5D700FD3388 /* IconCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4019A1DAAA5D700FD3388 /* IconCaption.swift */; };
+		8FD401A31DAAA5D700FD3388 /* IconProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4019B1DAAA5D700FD3388 /* IconProcessing.swift */; };
+		8FD401A41DAAA5D700FD3388 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4019C1DAAA5D700FD3388 /* main.swift */; };
+		8FD401A51DAAA5D700FD3388 /* NSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4019D1DAAA5D700FD3388 /* NSColorExtension.swift */; };
+		8FD401A61DAAA5D700FD3388 /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4019E1DAAA5D700FD3388 /* NSImageExtension.swift */; };
+		8FD401A71DAAA5D700FD3388 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4019F1DAAA5D700FD3388 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,15 +30,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8FCAB0F21DA8F65100C32726 /* AppiconText */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppiconText; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FCAB0F51DA8F65100C32726 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		8FCAB0FC1DA8F75500C32726 /* NSColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorExtension.swift; sourceTree = "<group>"; };
-		8FCAB0FE1DA8FC7D00C32726 /* NSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
-		8FCAB1001DA9017400C32726 /* FileManagerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
-		8FCAB1021DA9029100C32726 /* AppiconProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppiconProcessor.swift; sourceTree = "<group>"; };
-		8FCAB10A1DA98B5E00C32726 /* IconProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconProcessing.swift; sourceTree = "<group>"; };
-		8FCAB10C1DA98C3A00C32726 /* IconCaption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCaption.swift; sourceTree = "<group>"; };
-		8FD401921DA99F2C00FD3388 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8FCAB0F21DA8F65100C32726 /* appicon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = appicon; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD401971DAAA5D700FD3388 /* AppiconProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppiconProcessor.swift; sourceTree = "<group>"; };
+		8FD401981DAAA5D700FD3388 /* FileManagerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		8FD4019A1DAAA5D700FD3388 /* IconCaption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCaption.swift; sourceTree = "<group>"; };
+		8FD4019B1DAAA5D700FD3388 /* IconProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconProcessing.swift; sourceTree = "<group>"; };
+		8FD4019C1DAAA5D700FD3388 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8FD4019D1DAAA5D700FD3388 /* NSColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorExtension.swift; sourceTree = "<group>"; };
+		8FD4019E1DAAA5D700FD3388 /* NSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
+		8FD4019F1DAAA5D700FD3388 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 		8FCAB0E91DA8F65100C32726 = {
 			isa = PBXGroup;
 			children = (
-				8FCAB0F41DA8F65100C32726 /* AppiconText */,
+				8FD401961DAAA5D700FD3388 /* AppiconTool */,
 				8FCAB0F31DA8F65100C32726 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,30 +63,30 @@
 		8FCAB0F31DA8F65100C32726 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FCAB0F21DA8F65100C32726 /* AppiconText */,
+				8FCAB0F21DA8F65100C32726 /* appicon */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8FCAB0F41DA8F65100C32726 /* AppiconText */ = {
+		8FD401961DAAA5D700FD3388 /* AppiconTool */ = {
 			isa = PBXGroup;
 			children = (
-				8FCAB1091DA98B5E00C32726 /* IconProcessors */,
-				8FCAB0F51DA8F65100C32726 /* main.swift */,
-				8FCAB0FC1DA8F75500C32726 /* NSColorExtension.swift */,
-				8FCAB0FE1DA8FC7D00C32726 /* NSImageExtension.swift */,
-				8FCAB1001DA9017400C32726 /* FileManagerExtension.swift */,
-				8FCAB1021DA9029100C32726 /* AppiconProcessor.swift */,
-				8FD401921DA99F2C00FD3388 /* Utils.swift */,
+				8FD401991DAAA5D700FD3388 /* IconProcessors */,
+				8FD401971DAAA5D700FD3388 /* AppiconProcessor.swift */,
+				8FD401981DAAA5D700FD3388 /* FileManagerExtension.swift */,
+				8FD4019C1DAAA5D700FD3388 /* main.swift */,
+				8FD4019D1DAAA5D700FD3388 /* NSColorExtension.swift */,
+				8FD4019E1DAAA5D700FD3388 /* NSImageExtension.swift */,
+				8FD4019F1DAAA5D700FD3388 /* Utils.swift */,
 			);
-			path = AppiconText;
+			path = AppiconTool;
 			sourceTree = "<group>";
 		};
-		8FCAB1091DA98B5E00C32726 /* IconProcessors */ = {
+		8FD401991DAAA5D700FD3388 /* IconProcessors */ = {
 			isa = PBXGroup;
 			children = (
-				8FCAB10A1DA98B5E00C32726 /* IconProcessing.swift */,
-				8FCAB10C1DA98C3A00C32726 /* IconCaption.swift */,
+				8FD4019A1DAAA5D700FD3388 /* IconCaption.swift */,
+				8FD4019B1DAAA5D700FD3388 /* IconProcessing.swift */,
 			);
 			path = IconProcessors;
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 			);
 			name = AppiconText;
 			productName = AppiconText;
-			productReference = 8FCAB0F21DA8F65100C32726 /* AppiconText */;
+			productReference = 8FCAB0F21DA8F65100C32726 /* appicon */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8FCAB0ED1DA8F65100C32726 /* Build configuration list for PBXProject "AppiconText" */;
+			buildConfigurationList = 8FCAB0ED1DA8F65100C32726 /* Build configuration list for PBXProject "AppiconTool" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,14 +149,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FCAB10D1DA98C3A00C32726 /* IconCaption.swift in Sources */,
-				8FCAB0FD1DA8F75500C32726 /* NSColorExtension.swift in Sources */,
-				8FCAB1011DA9017400C32726 /* FileManagerExtension.swift in Sources */,
-				8FCAB0F61DA8F65100C32726 /* main.swift in Sources */,
-				8FCAB0FF1DA8FC7D00C32726 /* NSImageExtension.swift in Sources */,
-				8FCAB1031DA9029100C32726 /* AppiconProcessor.swift in Sources */,
-				8FCAB10B1DA98B5E00C32726 /* IconProcessing.swift in Sources */,
-				8FD401931DA99F2C00FD3388 /* Utils.swift in Sources */,
+				8FD401A21DAAA5D700FD3388 /* IconCaption.swift in Sources */,
+				8FD401A41DAAA5D700FD3388 /* main.swift in Sources */,
+				8FD401A51DAAA5D700FD3388 /* NSColorExtension.swift in Sources */,
+				8FD401A61DAAA5D700FD3388 /* NSImageExtension.swift in Sources */,
+				8FD401A31DAAA5D700FD3388 /* IconProcessing.swift in Sources */,
+				8FD401A01DAAA5D700FD3388 /* AppiconProcessor.swift in Sources */,
+				8FD401A11DAAA5D700FD3388 /* FileManagerExtension.swift in Sources */,
+				8FD401A71DAAA5D700FD3388 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +254,7 @@
 		8FCAB0FA1DA8F65100C32726 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = appicon;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -262,7 +262,7 @@
 		8FCAB0FB1DA8F65100C32726 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = appicon;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -270,7 +270,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FCAB0ED1DA8F65100C32726 /* Build configuration list for PBXProject "AppiconText" */ = {
+		8FCAB0ED1DA8F65100C32726 /* Build configuration list for PBXProject "AppiconTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FCAB0F71DA8F65100C32726 /* Debug */,
@@ -286,6 +286,7 @@
 				8FCAB0FB1DA8F65100C32726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
